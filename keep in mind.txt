@@ -1,0 +1,39 @@
+Rule number one of coding: 
+never capitalize letters unless stated specifically to do so in instructions.
+
+{y: .2f} will shorten down floats. it is a f-string
+ex:
+print(f'dubbla av talet är{y: .2f}')
+
+int are full numbers without decimals
+floats always have as many decimals as possible
+strings (str) are text within '' or "". if theres a number you need use int
+
+if:     checks for something in () and then outputs. make sure to put a colon (:)
+else:   follow-up on if/elif that will only activate if the input does not line up
+elif:   follow-up on if/elif that checks only if the previous input did not line up
+
+==      equal
+=>      more or equal
+=<      less or equal
+>       more than
+<       less than
+!=      not equal
+
+a variable can store values to use or change later
+ex:
+password = "python"
+age = 16
+
+you can use commas (,) to separate objects in a command
+ex:
+print(a, b, c)
+print(a+1, b+1)
+
+to use random you have to import it using "import random".
+random.randint  gives a random int number.
+ex:
+x = random.randint(1,6)
+
+while will continuously check for something, 
+constantly repeating the connected commands until it no longer is correct
